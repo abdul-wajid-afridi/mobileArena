@@ -1,0 +1,16 @@
+.postproducts__container {
+  @apply flex h-screen justify-center items-center w-full sm:w-[70vw];
+}
+.postproducts__container form {
+  @apply flex flex-col gap-5 bg-gradient-to-tr from-sky-500 to-sky-800 px-20 py-20;
+}
+.postproducts__container form input {
+  @apply bg-gray-200 hover:bg-gray-100 pl-2 rounded-full border outline-none py-1;
+}
+.postproducts__container form input:nth-child(8) {
+  text-decoration: none;
+  @apply bg-white border-none list-none;
+}
+.postproducts__container form button {
+  @apply py-2 bg-orange-700 hover:bg-orange-600 rounded-full font-bold tracking-wide text-white;
+}

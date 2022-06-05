@@ -1,0 +1,43 @@
+.features__container {
+    height: 380px;
+    box-shadow: 0 0 18px 3px gray;
+    @apply flex justify-between flex-col m-3 bg-white border overflow-hidden rounded-2xl;
+  }
+  .features__container img {
+    @apply w-full h-52;
+  }
+  .feature__main {
+    @apply flex justify-between items-end p-2;
+  }
+  .feature__left {
+    @apply flex flex-col;
+  }
+  .feature__left span {
+    @apply flex gap-2 items-center text-gray-500;
+  }
+  .feature__right {
+    @apply flex flex-col;
+  }
+  .feature__right p {
+    @apply text-yellow-600 text-xl font-bold tracking-wide;
+  }
+  .feature__right p1 {
+    @apply text-gray-500 text-sm;
+  }
+  .carasoul__header{
+    @apply text-3xl text-center my-10 font-bold tracking-wide text-gray-700
+  }
+  .carasoul__header span{
+    @apply text-blue-600 border-b-2 border-blue-600
+  }
+
+  @media (max-width: 780px) {
+    .features__container {
+      height: 390px;
+      @apply flex justify-between flex-col m-3 bg-white border overflow-hidden rounded-2xl;
+    }
+    .carasoul__header{
+      @apply text-2xl text-center my-10 font-bold tracking-wide text-gray-700
+    }
+  }
+  

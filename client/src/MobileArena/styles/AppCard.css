@@ -1,0 +1,23 @@
+.app__card {
+  z-index: 10;
+  @apply flex flex-col justify-center items-center h-[400px] w-[300px] hover:border hover:shadow-lg hover:shadow-gray-400;
+}
+.app__card img {
+  @apply h-[280px] w-[200px] rounded-lg;
+}
+
+.card__top {
+  @apply flex flex-col items-center;
+}
+.card__top p:nth-child(1) {
+  @apply text-blue-800 text-lg font-bold capitalize tracking-wide;
+}
+.card__top p:nth-child(2) {
+  @apply text-gray-600  font-bold capitalize tracking-wide;
+}
+.card__price {
+  @apply text-xl text-gray-800 font-bold tracking-wide my-2;
+}
+.card__link {
+  @apply text-gray-700 border px-2 py-1 hover:bg-gray-200 hover:text-blue-800;
+}

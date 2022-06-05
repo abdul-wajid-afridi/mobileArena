@@ -1,0 +1,16 @@
+.login {
+  background: url("../images/oppo-c8-hjf-OgfI-unsplash.jpg");
+  @apply flex flex-col justify-center items-center bg-cover bg-blend-overlay bg-no-repeat bg-center h-[88.8vh] bg-[rgba(0,0,0,.7)];
+}
+
+.login p {
+  @apply text-3xl my-4 font-bold tracking-wide capitalize text-white;
+}
+
+.login form {
+  @apply flex  justify-center items-center flex-col gap-10 w-[450px] px-10 py-24 bg-[#8d8d8d3d] rounded-lg shadow-lg shadow-slate-300;
+}
+
+.login form input {
+  @apply h-10 w-10/12 rounded-full pl-2 outline-none hover:bg-gray-200;
+}

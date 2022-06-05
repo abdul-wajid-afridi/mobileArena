@@ -1,0 +1,21 @@
+.dashboard {
+  @apply flex flex-col h-screen w-[200px] bg-gray-50;
+}
+.dashboard__logo {
+  @apply h-[200px] w-full bg-sky-800 flex justify-center items-center;
+}
+.dashboard__logo img {
+  @apply h-[150px] w-[150px];
+}
+.dashboard__menu {
+  @apply flex flex-col gap-5 my-10;
+}
+.dashboard__link {
+  @apply text-sm  hover:bg-sky-700 hover:text-white py-2 pl-2;
+}
+.logout__btn {
+  @apply bg-orange-500 py-2 rounded-full font-bold tracking-wide text-white hover:bg-orange-600 hover:shadow-lg hover:shadow-orange-600;
+}
+.dash_none {
+  display: none;
+}

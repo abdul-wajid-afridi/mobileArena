@@ -1,0 +1,46 @@
+.footer {
+  @apply relative h-[230px] bg-gradient-to-r from-indigo-900 via-indigo-900 to-rose-900 rounded-tl-[90px]
+  flex flex-wrap justify-center  items-center;
+}
+
+.footer__address h4 {
+  @apply text-2xl text-white tracking-wide;
+}
+.footer__address p {
+  @apply text-gray-300;
+}
+.footer__address {
+  @apply w-[300px];
+}
+
+.footer__link {
+  @apply w-[300px];
+}
+.footer__link p {
+  @apply text-white tracking-wide;
+}
+.footer__socials {
+  @apply flex gap-3;
+}
+.footer__socials span {
+  @apply text-2xl text-gray-300;
+}
+.footer__socials span:nth-child(1):hover {
+  @apply text-blue-600;
+}
+.footer__socials span:nth-child(2):hover {
+  @apply text-rose-600;
+}
+.footer__socials span:nth-child(3):hover {
+  @apply text-blue-500;
+}
+
+.footer__socials span:nth-child(4):hover {
+  @apply text-green-400;
+}
+.footer__rights {
+  @apply absolute bottom-0 left-0 text-white ml-4;
+}
+.footer__rights span {
+  @apply text-rose-500 text-xl font-bold;
+}

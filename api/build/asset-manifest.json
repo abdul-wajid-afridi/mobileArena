@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4cadb34e.css",
+    "main.js": "/static/js/main.fada0296.js",
+    "static/media/oppo-c8-hjf-OgfI-unsplash.jpg": "/static/media/oppo-c8-hjf-OgfI-unsplash.77e539acf3e5eab27120.jpg",
+    "static/media/oppo-1OYIGbdHHYA-unsplash.jpg": "/static/media/oppo-1OYIGbdHHYA-unsplash.f215d52ed8e240d4559c.jpg",
+    "static/media/contact.jpg": "/static/media/contact.0fcaeebf1d04137eb08b.jpg",
+    "static/media/stay-home.png": "/static/media/stay-home.bc8e544d6286973459a6.png",
+    "static/media/WhatsApp Image 2022-04-21 at 7.39.26 PM(1).jpeg": "/static/media/WhatsApp Image 2022-04-21 at 7.39.26 PM(1).1d201a7c656dc160fe8e.jpeg",
+    "static/media/WhatsApp Image 2022-04-21 at 6.35.08 PM(1).jpeg": "/static/media/WhatsApp Image 2022-04-21 at 6.35.08 PM(1).3364e91217a249ac246a.jpeg",
+    "static/media/WhatsApp Image 2022-04-21 at 7.20.47 PM(1).jpeg": "/static/media/WhatsApp Image 2022-04-21 at 7.20.47 PM(1).a5d5527a4378ee17c3c0.jpeg",
+    "static/media/concept1.png": "/static/media/concept1.ee8cb5f0b625db7f3fae.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.4cadb34e.css.map": "/static/css/main.4cadb34e.css.map",
+    "main.fada0296.js.map": "/static/js/main.fada0296.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cadb34e.css",
+    "static/js/main.fada0296.js"
+  ]
+}

@@ -1,0 +1,15 @@
+.mainpage{
+background: url('../images/oppo-1OYIGbdHHYA-unsplash.jpg') no-repeat;
+background-color: rgba(0,0,0,.3);
+@apply bg-cover bg-center h-screen flex pt-10 pl-10  bg-blend-overlay 
+}
+
+.main__strings{
+    @apply text-3xl text-white tracking-wide w-[300px]
+}
+
+@media(max-width:800px){
+   .main__strings{
+    @apply text-lg
+   }
+}

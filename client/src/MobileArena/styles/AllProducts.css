@@ -1,0 +1,19 @@
+.products__header{
+    @apply text-center capitalize cursor-pointer text-3xl my-10 font-bold tracking-wide text-gray-600
+}
+.products__header span{
+    @apply text-blue-700 border-b-2 border-blue-500
+}
+.products__search{
+    @apply flex justify-end py-10
+}
+
+.products__search div{
+    @apply flex py-1 gap-1 overflow-hidden hover:shadow-lg items-center h-10 w-[250px] mx-4  pl-1 border border-blue-700 rounded-full
+ }
+ .products__search input{
+     @apply h-full outline-none w-full bg-transparent
+ }
+ .products__search span{
+     @apply text-blue-700
+ }

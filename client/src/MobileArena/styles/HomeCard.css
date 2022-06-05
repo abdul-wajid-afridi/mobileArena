@@ -1,0 +1,51 @@
+.homecard {
+  @apply flex flex-col w-[300px] h-[370px] overflow-hidden bg-[#e2e0e0];
+}
+.homecard__img {
+  @apply h-[260px] w-full relative overflow-hidden;
+}
+.homecard img {
+  @apply h-[260px] w-full;
+}
+
+.homecard__icons {
+  transform: skewX(30px);
+  transition: 0.3s ease-in-out;
+  @apply flex justify-center items-center gap-4 absolute inset-0
+    transform skew-x-[90deg]  bg-[rgba(0,110,153,0.7)];
+}
+
+.homecard:hover .homecard__icons {
+  @apply transform skew-x-[0deg];
+}
+.homecard__details {
+  transition: 0.3s ease-in-out;
+  @apply h-[110px] flex flex-col justify-center items-center px-2;
+}
+.homecard:hover .homecard__details {
+  transition: 0.3s ease-in-out;
+  @apply bg-orange-400;
+}
+
+.homecard__details h5 {
+  @apply text-2xl text-gray-800 font-bold tracking-wide capitalize;
+}
+.homecard__details p {
+  @apply text-gray-700  tracking-wide capitalize;
+}
+
+.homecard__icons span {
+  @apply text-3xl;
+}
+.homecard__icons span:hover:nth-child(1) {
+  @apply text-white rounded-full bg-blue-500;
+}
+.homecard__icons span:hover:nth-child(2) {
+  @apply text-blue-600 rounded-full bg-white;
+}
+.homecard__icons span:hover:nth-child(3) {
+  @apply text-rose-700 rounded-full bg-indigo-500;
+}
+.homecard__icons span:hover:nth-child(4) {
+  @apply text-blue-700  bg-gray-100;
+}

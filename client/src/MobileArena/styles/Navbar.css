@@ -1,0 +1,51 @@
+.navbar {
+  @apply h-[80px] flex justify-between px-4 bg-gray-100 items-center;
+}
+.menu {
+  @apply flex gap-10 text-lg font-bold tracking-wide text-gray-600;
+}
+.nav__link {
+  @apply mx-5 text-gray-700 text-lg tracking-wider font-bold hover:text-black;
+}
+
+.menu__sidebar {
+  @apply flex items-center gap-4;
+}
+.menu__icon {
+  display: none;
+
+  @apply text-2xl cursor-pointer hover:text-gray-700;
+}
+.menu__login {
+  transition: 0.3s ease-in;
+  @apply font-bold hover:bg-gray-200 px-4 py-1 rounded-md;
+}
+.menu__login:hover {
+  box-shadow: 1.3px 1.3px 3px red, -1.3px -1.3px 3px blue;
+}
+
+/* .menu__login {
+  box-shadow: 3px 3px 3px red, -1.3px -1.3px 3px blue;
+}
+.menu__login:hover {
+  box-shadow: 1.3px 1.3px 3px red, -3px -3px 3px blue;
+} */
+
+@media (max-width: 800px) {
+  .menu__icon {
+    display: flex;
+  }
+  .nav__link {
+    @apply border-b-2  pl-10 mx-0 w-full hover:bg-gray-200 py-5;
+  }
+  .navbar__menu {
+    transition: 0.3s ease-in;
+    left: -100%;
+    z-index: 999;
+    @apply flex bg-gray-100  flex-col absolute top-0 mt-[80px]  w-full;
+  }
+  .navbar__menu.actives {
+    transition: 0.4s ease-in;
+    @apply opacity-100 left-0;
+  }
+}

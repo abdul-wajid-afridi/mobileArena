@@ -1,0 +1,27 @@
+.carasoul__gallary {
+    @apply mx-10 my-16;
+  }
+  .carasoul__img {
+    height: 40vh;
+    @apply p-3 rounded-2xl flex relative overflow-hidden;
+  }
+  .carasoul__img:hover {
+    height: 40vh;
+    @apply shadow-2xl rounded-xl;
+  }
+  
+  .carasoul__title {
+    bottom: 10%;
+    z-index: 999;
+    @apply font-bold ml-2 text-yellow-300 lg:text-2xl sm:text-xl tracking-wider absolute;
+  }
+  
+  .carasoul__bg {
+    background: rgba(0, 0, 0, 0.5);
+    @apply absolute inset-0 m-3 rounded-xl;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    @apply text-yellow-700 text-2xl;
+  }
+  
